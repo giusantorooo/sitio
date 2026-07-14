@@ -2,8 +2,17 @@
   "piezas": [
     {
       "titulo": "Zodiaco — Anillos en gres y plata",
-      "material": ["Cerámica", "Joyería"],
-      "trabajo": ["Modelo", "Molde", "Escultura", "Decoración", "Producción"],
+      "material": [
+        "Cerámica",
+        "Joyería"
+      ],
+      "trabajo": [
+        "Modelo",
+        "Molde",
+        "Escultura",
+        "Decoración",
+        "Producción"
+      ],
       "contexto": "Marca propia",
       "anio": "2023",
       "portada": "",
@@ -12,8 +21,13 @@
     },
     {
       "titulo": "OVO Design — Declinaciones sobre modelo base",
-      "material": ["Cerámica"],
-      "trabajo": ["Modelo", "Escultura"],
+      "material": [
+        "Cerámica"
+      ],
+      "trabajo": [
+        "Modelo",
+        "Escultura"
+      ],
       "contexto": "Encargo",
       "anio": "2021–2024",
       "portada": "",
@@ -22,8 +36,13 @@
     },
     {
       "titulo": "Restaurante Zefiro — Bagnara Calabra",
-      "material": ["Cerámica"],
-      "trabajo": ["Escultura", "Decoración"],
+      "material": [
+        "Cerámica"
+      ],
+      "trabajo": [
+        "Escultura",
+        "Decoración"
+      ],
       "contexto": "Encargo",
       "anio": "2021–2022",
       "portada": "",
@@ -32,8 +51,13 @@
     },
     {
       "titulo": "Pulpos — Investigación",
-      "material": ["Cerámica"],
-      "trabajo": ["Escultura", "Decoración"],
+      "material": [
+        "Cerámica"
+      ],
+      "trabajo": [
+        "Escultura",
+        "Decoración"
+      ],
       "contexto": "Personal",
       "anio": "2019–2024",
       "portada": "",
@@ -42,13 +66,18 @@
     },
     {
       "titulo": "Alianzas — Taller de joyería, Barcelona",
-      "material": ["Joyería"],
-      "trabajo": ["Producción", "Acabado"],
+      "material": [
+        "Joyería"
+      ],
+      "trabajo": [
+        "Producción",
+        "Acabado"
+      ],
       "contexto": "Encargo",
       "anio": "En curso",
       "portada": "",
       "galeria": [],
-      "cuerpo": "Producción continuada de alianzas para un taller de joyería de Barcelona.\n\nLa alianza no perdona: superficie continua, sin sitio donde esconder un error, y una talla que tiene que ser exacta. Se mira todos los días.\n\n**GIUSEPPE — RELLENA ESTO:** cantidades, metales, acabados."
+      "cuerpo": "Producción continuada de alianzas para un taller de joyería de Barcelona.\n\nLa alianza no perdona: superficie continua, sin sitio donde esconder un error, y una talla que tiene que ser exacta. Se mira todos los días."
     }
   ]
 }
