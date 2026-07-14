@@ -1,0 +1,54 @@
+{
+  "piezas": [
+    {
+      "titulo": "Zodiaco — Anillos en gres y plata",
+      "material": ["Cerámica", "Joyería"],
+      "trabajo": ["Modelo", "Molde", "Escultura", "Decoración", "Producción"],
+      "contexto": "Marca propia",
+      "anio": "2023",
+      "portada": "",
+      "galeria": [],
+      "cuerpo": "Quería unir cerámica y joyería. El límite era yo: tenía que poder producirlo, gestionarlo y venderlo una sola persona, con un horno pequeño y sin capital. Cada decisión sale de ahí.\n\n**Pasta.** Gres con 50% de chamota. Aguanta la alta temperatura sin cuartearse incluso en un horno pequeño, donde el calor nunca es uniforme. Sin hornos externos, sin costes fijos.\n\n**Moldes.** En terracota, no en escayola: resisten mejor el desgaste en series largas.\n\n**Vástago.** Plata 925 regulable. La talla la ajusta el cliente. Sin stock en doce medidas, sin devoluciones.\n\n**Color.** La paleta sigue los cuatro elementos de los signos. No es decoración: es el sistema de personalización. El cliente elige, a mí no me cuesta nada.\n\n**Margen.** Lustre de oro o platino como mejora. Misma pieza, otro precio.\n\nBajorrelieves tallados a mano, uno por signo."
+    },
+    {
+      "titulo": "OVO Design — Declinaciones sobre modelo base",
+      "material": ["Cerámica"],
+      "trabajo": ["Modelo", "Escultura"],
+      "contexto": "Encargo",
+      "anio": "2021–2024",
+      "portada": "",
+      "galeria": [],
+      "cuerpo": "OVO Design tenía una línea de cabezas de moro y el problema clásico de la marca pequeña: un objeto, y la necesidad de una colección.\n\nTrabajé por injertos. Partiendo de la cabeza base, tallé a mano los elementos que se añaden encima: cada injerto cambia la lectura de la pieza. Misma base, productos distintos. Las formas están redibujadas en clave geométrica — reconocibles, fuera del folclore.\n\nEl tipo de producto entra en catálogo y se puede reproducir, pero cada pieza se talla de nuevo: dos ejemplares nunca son idénticos. No es una serie industrial, y es mejor así — la variación es parte de lo que la marca vende.\n\nDesarrollo en diálogo continuo con la marca. Las decisiones formales se toman en el banco: qué aguanta la cocción, qué se puede repetir, hasta dónde llega la escultura sin traicionar el catálogo. El proyecto es suyo.\n\nCuatro años de colaboración."
+    },
+    {
+      "titulo": "Restaurante Zefiro — Bagnara Calabra",
+      "material": ["Cerámica"],
+      "trabajo": ["Escultura", "Decoración"],
+      "contexto": "Encargo",
+      "anio": "2021–2022",
+      "portada": "",
+      "galeria": [],
+      "cuerpo": "Un restaurante de pescado en Bagnara Calabra. Un espacio, y mano libre sobre el contenido.\n\n**Zefiro (2021).** Máscara en loza, pintada a mano con colores cerámicos y cubierta transparente. El dios griego del viento del oeste, que da nombre al local: sopla, mejillas hinchadas, pelo movido por el viento. Entre el pelo, flores de jacinto — el mito de Jacinto.\n\n**La Bagnarota (2022).** No es un adorno: es la figura histórica del pueblo, la mujer que cargaba a la cabeza y sostenía la economía del lugar. En Bagnara hay un monumento a ellas. Llevar esa figura dentro de un restaurante de Bagnara es meter el pueblo en su propia sala.\n\nModelado y decoración a mano. Piezas únicas, pensadas para ese espacio."
+    },
+    {
+      "titulo": "Pulpos — Investigación",
+      "material": ["Cerámica"],
+      "trabajo": ["Escultura", "Decoración"],
+      "contexto": "Personal",
+      "anio": "2019–2024",
+      "portada": "",
+      "galeria": [],
+      "cuerpo": "El pulpo se adapta a cualquier superficie: cambia de forma sin dejar de ser lo que es. Llevo años volviendo a esa figura.\n\nLa serie atraviesa materiales y escalas: esculturas, jarrones torneados y decorados a mano, y un mural dentro del Eco Hostel de Gran Vía de Colón, en Granada.\n\nNo es una colección de objetos. Es un tema que se puede llevar a cualquier soporte."
+    },
+    {
+      "titulo": "Alianzas — Taller de joyería, Barcelona",
+      "material": ["Joyería"],
+      "trabajo": ["Producción", "Acabado"],
+      "contexto": "Encargo",
+      "anio": "En curso",
+      "portada": "",
+      "galeria": [],
+      "cuerpo": "Producción continuada de alianzas para un taller de joyería de Barcelona.\n\nLa alianza no perdona: superficie continua, sin sitio donde esconder un error, y una talla que tiene que ser exacta. Se mira todos los días.\n\n**GIUSEPPE — RELLENA ESTO:** cantidades, metales, acabados."
+    }
+  ]
+}

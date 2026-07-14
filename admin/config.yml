@@ -1,0 +1,90 @@
+# ⚠️ ÚNICA LÍNEA QUE PUEDE HACER FALTA TOCAR: "repo".
+# Tiene que ser exactamente  tu-usuario-de-github/nombre-del-repositorio
+
+backend:
+  name: github
+  repo: giusantorooo/sitio
+  branch: main
+
+media_folder: "img"
+public_folder: "/img"
+
+collections:
+  - name: archivo
+    label: Archivo
+    files:
+      - name: piezas
+        label: Piezas del archivo
+        file: content/archivo.json
+        fields:
+          - name: piezas
+            label: Piezas
+            label_singular: Pieza
+            widget: list
+            summary: "{{fields.titulo}}"
+            fields:
+              - { name: titulo, label: Título, widget: string }
+              - name: material
+                label: Material
+                widget: select
+                multiple: true
+                options: ["Cerámica", "Joyería"]
+              - name: trabajo
+                label: Trabajo
+                widget: select
+                multiple: true
+                options: ["Modelo", "Molde", "Escultura", "Decoración", "Producción", "Acabado", "Reparación", "3D"]
+              - name: contexto
+                label: Contexto
+                widget: select
+                options: ["Encargo", "Personal", "Marca propia"]
+              - { name: anio, label: Año, widget: string, hint: "Ej.: 2023, o 2021–2024, o «En curso»" }
+              - { name: portada, label: Foto de portada, widget: image, required: false }
+              - name: galeria
+                label: Galería
+                widget: list
+                required: false
+                field: { name: foto, label: Foto, widget: image }
+              - name: cuerpo
+                label: Descripción
+                widget: text
+                hint: "Problema del cliente → qué hiciste con las manos → el dato técnico. Para negrita: **así**. Deja una línea en blanco entre párrafos."
+
+  - name: textos
+    label: Textos del sitio
+    files:
+      - name: general
+        label: Inicio, servicios y contacto
+        file: content/textos.json
+        fields:
+          - { name: home_titulo_1, label: "Inicio — primera palabra", widget: string }
+          - { name: home_titulo_2, label: "Inicio — segunda palabra", widget: string }
+          - { name: home_ciudad, label: "Inicio — ciudad", widget: string }
+          - { name: home_capacidades, label: "Inicio — capacidades", widget: text }
+          - { name: home_tira, label: "Inicio — franja (Faenza)", widget: text }
+          - { name: servicios_intro, label: "Servicios — introducción", widget: text }
+          - name: servicios
+            label: Servicios
+            label_singular: Servicio
+            widget: list
+            summary: "{{fields.nombre}}"
+            fields:
+              - { name: nombre, label: Nombre, widget: string }
+              - { name: linea, label: Línea corta (azul), widget: string }
+              - { name: texto, label: Texto, widget: text }
+              - { name: filtro, label: Filtro del archivo, widget: string, required: false, hint: "Ej.: trabajo=Molde  ·  material=Joyería  ·  déjalo vacío si no hay piezas que mostrar" }
+          - name: fases
+            label: "Cómo trabajo — fases"
+            label_singular: Fase
+            widget: list
+            summary: "{{fields.nombre}}"
+            fields:
+              - { name: nombre, label: Nombre, widget: string }
+              - { name: texto, label: Texto, widget: string }
+          - { name: necesito, label: "Qué necesito de ti", widget: text }
+          - { name: recibes, label: "Qué recibes", widget: text }
+          - { name: contacto_intro, label: "Contacto — introducción", widget: text }
+          - { name: email, label: Correo, widget: string }
+          - { name: ciudad, label: Ciudad, widget: string }
+          - { name: instagram, label: "Instagram (sin @)", widget: string }
+          - { name: linkedin, label: LinkedIn (URL), widget: string }
