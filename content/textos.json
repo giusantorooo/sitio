@@ -2,30 +2,76 @@
   "home_titulo_1": "Cerámica",
   "home_titulo_2": "joyería.",
   "home_ciudad": "Barcelona.",
-  "home_intro": "Dos oficios que rara vez están en las mismas manos. Por encargo, para marcas, estudios y talleres.",
-  "home_tira": "Formación técnica en Faenza. Pastas, esmaltes, revestimientos, color. Y banco de orfebrería.",
-
-  "ceramica_intro": "Trabajo por encargo en cerámica para marcas, estudios y talleres: modelos, moldes, escultura y decoración. Y consultoría técnica, para resolver lo que falla en la pieza y en la cocción.",
+  "home_intro": "Dos oficios que rara vez están en las mismas manos. Trabajo por encargo para marcas, estudios y talleres.",
+  "home_tira": "Formación técnica en Faenza —pastas, esmaltes, cocción— y banco de orfebrería.",
+  "ceramica_intro": "Trabajo por encargo para marcas, estudios y talleres. Modelos, moldes, escultura, decoración y esmaltado. Y consultoría técnica, para cuando algo falla en la pieza o en el horno y hace falta entender por qué.",
   "ceramica_servicios": [
-    { "nombre": "Consultoría técnica y productiva", "linea": "Pastas, esmaltes, cocción, producción.", "texto": "Defectos de cocción, cuarteo, esmaltes que no ajustan, colores que viran. Formación técnica IFTS en Faenza. Reviso la técnica y la producción, no solo la forma." },
-    { "nombre": "Modelos", "linea": "Modelado a mano y torno.", "texto": "El modelo pensado para el molde: líneas de división y cálculo de la merma en cocción." },
-    { "nombre": "Moldes", "linea": "Yeso o terracota, según la serie.", "texto": "Estudio de las líneas de división y molde madre. Para series largas, terracota: aguanta mejor el desgaste." },
-    { "nombre": "Escultura", "linea": "Piezas únicas y relieve.", "texto": "Modelado y bajorrelieve para espacios, marcas o catálogo." },
-    { "nombre": "Decoración a pincel", "linea": "Colores cerámicos y cubiertas, a mano.", "texto": "Decoración pintada a mano: colores cerámicos y cubiertas." }
+    {
+      "nombre": "Consultoría técnica y productiva",
+      "linea": "Pastas, esmaltes, cocción.",
+      "texto": "Cuando una pieza se cuartea, un esmalte no ajusta o un color vira en el horno, casi siempre hay una razón química detrás. Mi formación en Faenza va justo ahí: entender la materia y el proceso para resolverlo, sin quedarse en la forma."
+    },
+    {
+      "nombre": "Modelos",
+      "linea": "A mano y al torno.",
+      "texto": "Preparo el modelo pensando ya en el molde: las líneas de división en su sitio y la merma de la cocción calculada de antemano."
+    },
+    {
+      "nombre": "Moldes",
+      "linea": "Yeso o terracota.",
+      "texto": "Estudio las líneas de división y hago el molde madre. Para series largas lo trabajo en terracota, que aguanta mejor el desgaste."
+    },
+    {
+      "nombre": "Escultura",
+      "linea": "Piezas únicas y relieve.",
+      "texto": "Modelado y bajorrelieve, del boceto a la pieza, para un espacio, una marca o un catálogo."
+    },
+    {
+      "nombre": "Decoración y esmaltado",
+      "linea": "A pincel, por inmersión o a pistola.",
+      "texto": "Decoración pintada a mano con colores cerámicos, y esmaltado de las piezas por inmersión o a pistola, según lo que pida cada serie."
+    }
   ],
-
-  "joyeria_intro": "Apoyo externo de banco y producción por encargo para talleres y marcas. En plata y oro, a partir de foto, dibujo, muestra o medidas.",
+  "joyeria_intro": "Apoyo externo de banco para talleres y marcas, y producción por encargo en plata y oro. Puedo partir de una foto, un dibujo, una muestra o unas medidas.",
   "joyeria_servicios": [
-    { "nombre": "Trabajos de banco", "linea": "Soldaduras, calado, ajustes, preparación.", "texto": "Apoyo externo para talleres: soldaduras, calado, ajustes y preparación de piezas. Para épocas de más carga o encargos puntuales." },
-    { "nombre": "Ajustes de talla y reparaciones", "linea": "Anillos y piezas.", "texto": "Ajuste de talla y reparaciones sencillas." },
-    { "nombre": "Acabado y pulido", "linea": "En plata y oro.", "texto": "Pulido y acabado de piezas." },
-    { "nombre": "Alianzas", "linea": "Producción y acabado.", "texto": "Producción continuada de alianzas. Superficie continua, talla exacta: no perdona, se mira todos los días." },
-    { "nombre": "Pequeñas producciones", "linea": "Series cortas en plata y oro.", "texto": "Producción por encargo de series pequeñas para talleres y marcas." },
-    { "nombre": "Diseño, modelado 3D y prototipos", "linea": "Del boceto o el archivo a la pieza.", "texto": "Desarrollo de modelo, modelado 3D (CAD-CAM) y prototipos." }
+    {
+      "nombre": "Trabajos de banco",
+      "linea": "Soldadura, calado, ajustes.",
+      "texto": "Hago de banco externo cuando un taller lo necesita: soldaduras, calado, ajustes, preparación de piezas. Útil en temporadas de mucha carga o para encargos sueltos."
+    },
+    {
+      "nombre": "Ajustes de talla y reparaciones",
+      "linea": "Anillos y piezas.",
+      "texto": "Subir o bajar una talla, arreglar lo que se ha roto o desgastado."
+    },
+    {
+      "nombre": "Acabado y pulido",
+      "linea": "Plata y oro.",
+      "texto": "Pulido y acabado final, para dejar la pieza lista para entregar o vender."
+    },
+    {
+      "nombre": "Alianzas",
+      "linea": "Producción y acabado.",
+      "texto": "Producción continuada de alianzas para un taller de Barcelona: series de anillos con la talla exacta y la superficie limpia."
+    },
+    {
+      "nombre": "Pequeñas producciones",
+      "linea": "Series cortas.",
+      "texto": "Series pequeñas en plata y oro, hechas por encargo."
+    },
+    {
+      "nombre": "Diseño, modelado 3D y prototipos",
+      "linea": "Del boceto al prototipo.",
+      "texto": "Desarrollo el modelo y hago prototipos, combinando el modelado 3D (CAD-CAM) con el trabajo a mano."
+    }
   ],
-
-  "sobre_cuerpo": "Giuseppe Santoro. Ceramista y orfebre. Nacido en Scilla, en la Costa Viola de Calabria, en 1999. En Barcelona desde octubre de 2024.\n\nEl recorrido, en orden. En 2021 empecé con la cerámica en la manufactura La Regina, en Bagnara Calabra. En 2022, joyería y orfebrería en la Accademia Orafa Italiana, en Catania: diseño de joya, técnicas orfebres y CAD-CAM. En 2023, especialización técnica IFTS como Técnico cerámico en Faenza —el centro histórico de la cerámica italiana—: pastas, esmaltes, la química de la cocción, defectos y control de calidad, moldes y prototipado, modelado e impresión 3D. En octubre de 2024 me trasladé a Barcelona, por su red creativa abierta e internacional.\n\nDe esa base técnica sale la consultoría técnica: entender la materia y el proceso, no solo la forma, para resolver problemas de cocción, esmaltes y producción.\n\nTrabajo con marcas, diseñadores y talleres en el desarrollo y prototipado de sus productos. Integro el modelado 3D con las técnicas manuales para ampliar lo que se puede hacer.\n\nCerámica y orfebrería, dos oficios que rara vez están en las mismas manos.",
-
+  "sobre_parrafos": [
+    "Giuseppe Santoro. Ceramista y orfebre. Nacido en Scilla, en la Costa Viola de Calabria, en 1999. En Barcelona desde octubre de 2024.",
+    "El recorrido, en orden. En 2021 empecé con la cerámica en la manufactura La Regina, en Bagnara Calabra. En 2022, joyería y orfebrería en la Accademia Orafa Italiana, en Catania: diseño de joya, técnicas orfebres y CAD-CAM. En 2023, especialización técnica IFTS como Técnico cerámico en Faenza —el centro histórico de la cerámica italiana—: pastas, esmaltes, la química de la cocción, defectos y control de calidad, moldes y prototipado, modelado e impresión 3D. En octubre de 2024 me trasladé a Barcelona, por su red creativa abierta e internacional.",
+    "De esa base técnica sale la consultoría técnica: entender la materia y el proceso, no solo la forma, para resolver problemas de cocción, esmaltes y producción.",
+    "Trabajo con marcas, diseñadores y talleres en el desarrollo y prototipado de sus productos. Integro el modelado 3D con las técnicas manuales para ampliar lo que se puede hacer.",
+    "Cerámica y orfebrería, dos oficios que rara vez están en las mismas manos."
+  ],
   "contacto_intro": "Escríbeme con lo que tengas: una idea, un dibujo, una foto, un archivo. Te digo si se puede hacer.",
   "email": "giusantorooo@gmail.com",
   "instagram": "giusantorooo"
