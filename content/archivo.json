@@ -1,138 +1,175 @@
 {
-  "piezas": [
-    {
-      "titulo": "Zodiaco — Anillos en gres y plata",
-      "material": [
-        "Cerámica",
-        "Joyería"
-      ],
-      "trabajo": [
-        "Modelo",
-        "Molde",
-        "Escultura",
-        "Decoración",
-        "Producción"
-      ],
-      "contexto": "Marca propia",
-      "anio": "2023",
-      "portada": "/img/zodiaco-anillos-detalle.jpg",
-      "galeria": [
-        "/img/zodiaco-anillos.jpg",
-        "/img/zodiaco-sellos.jpg",
-        "/img/zodiaco-horno.jpg",
-        "/img/zodiaco-esmaltados.jpg"
-      ],
-      "cuerpo": "Quería unir cerámica y joyería. El límite era yo: tenía que poder producirlo, gestionarlo y venderlo una sola persona, con un horno pequeño y sin capital. Cada decisión sale de ahí.\n\n**Pasta.** Gres con 50% de chamota. Aguanta la alta temperatura sin cuartearse incluso en un horno pequeño, donde el calor nunca es uniforme. Sin hornos externos, sin costes fijos.\n\n**Moldes.** En terracota, no en escayola: resisten mejor el desgaste en series largas.\n\n**Vástago.** Plata 925 regulable. La talla la ajusta el cliente. Sin stock en doce medidas, sin devoluciones.\n\n**Color.** La paleta sigue los cuatro elementos de los signos. No es decoración: es el sistema de personalización. El cliente elige, a mí no me cuesta nada.\n\n**Margen.** Lustre de oro o platino como mejora. Misma pieza, otro precio.\n\nBajorrelieves tallados a mano, uno por signo."
-    },
-    {
-      "titulo": "OVO Design — Declinaciones sobre modelo base",
-      "material": [
-        "Cerámica"
-      ],
-      "trabajo": [
-        "Modelo",
-        "Escultura"
-      ],
-      "contexto": "Encargo",
-      "anio": "2021–2024",
-      "portada": "/img/ovo-1749.jpg",
-      "galeria": [
-        "/img/ovo-1733.jpg",
-        "/img/ovo-1757.jpg",
-        "/img/ovo-1752.jpg"
-      ],
-      "cuerpo": "OVO Design tenía una línea de cabezas de moro y el problema clásico de la marca pequeña: un objeto, y la necesidad de una colección.\n\nTrabajé por injertos. Partiendo de la cabeza base, tallé a mano los elementos que se añaden encima: cada injerto cambia la lectura de la pieza. Misma base, productos distintos. Las formas están redibujadas en clave geométrica — reconocibles, fuera del folclore.\n\nEl tipo de producto entra en catálogo y se puede reproducir, pero cada pieza se talla de nuevo: dos ejemplares nunca son idénticos. No es una serie industrial, y es mejor así — la variación es parte de lo que la marca vende.\n\nDesarrollo en diálogo continuo con la marca. Las decisiones formales se toman en el banco: qué aguanta la cocción, qué se puede repetir, hasta dónde llega la escultura sin traicionar el catálogo. El proyecto es suyo.\n\nCuatro años de colaboración."
-    },
-    {
-      "titulo": "Restaurante Zefiro — Bagnara Calabra",
-      "material": [
-        "Cerámica"
-      ],
-      "trabajo": [
-        "Escultura",
-        "Decoración"
-      ],
-      "contexto": "Encargo",
-      "anio": "2021–2022",
-      "portada": "/img/bagnarota-3.jpg",
-      "galeria": [
-        "/img/zefiro-0e15a6.jpg",
-        "/img/bagnarota-2.jpg"
-      ],
-      "cuerpo": "Un restaurante de pescado en Bagnara Calabra. Un espacio, y mano libre sobre el contenido.\n\n**Zefiro (2021).** Máscara en loza, pintada a mano con colores cerámicos y cubierta transparente. El dios griego del viento del oeste, que da nombre al local: sopla, mejillas hinchadas, pelo movido por el viento. Entre el pelo, flores de jacinto — el mito de Jacinto.\n\n**La Bagnarota (2022).** No es un adorno: es la figura histórica del pueblo, la mujer que cargaba a la cabeza y sostenía la economía del lugar. En Bagnara hay un monumento a ellas. Llevar esa figura dentro de un restaurante de Bagnara es meter el pueblo en su propia sala.\n\nModelado y decoración a mano. Piezas únicas, pensadas para ese espacio."
-    },
-    {
-      "titulo": "Pulpos — Investigación",
-      "material": [
-        "Cerámica"
-      ],
-      "trabajo": [
-        "Escultura",
-        "Decoración"
-      ],
-      "contexto": "Personal",
-      "anio": "2019–2024",
-      "portada": "/img/octo-escultura.jpg",
-      "galeria": [
-        "/img/octo-mural.jpg",
-        "/img/octo-vaso2.jpg",
-        "/img/octo-vaso1.jpg",
-        "/img/octo-disegno.jpg"
-      ],
-      "cuerpo": "El pulpo se adapta a cualquier superficie: cambia de forma sin dejar de ser lo que es. Llevo años volviendo a esa figura.\n\nLa serie atraviesa materiales y escalas: esculturas, jarrones torneados y decorados a mano, y un mural dentro del Eco Hostel de Gran Vía de Colón, en Granada.\n\nNo es una colección de objetos. Es un tema que se puede llevar a cualquier soporte."
-    },
-    {
-      "titulo": "Medusa — Cabeza en cerámica",
-      "material": [
-        "Cerámica"
-      ],
-      "trabajo": [
-        "Escultura",
-        "Decoración"
-      ],
-      "contexto": "Personal",
-      "anio": "",
-      "portada": "/img/medusa-1.jpg",
-      "galeria": [
-        "/img/medusa-2.jpg"
-      ],
-      "cuerpo": "Medusa: la cabeza cortada, con la cabellera de serpientes.\n\nModelada a mano en cerámica y cubierta con un esmalte negro, casi metálico, que endurece los reflejos y convierte las serpientes en una sola masa viva. Un tema clásico llevado a mi manera — no la copia, sino la figura reconocible, trabajada como escultura."
-    },
-    {
-      "titulo": "Bronces de Riace — Cabeza en cerámica",
-      "material": [
-        "Cerámica"
-      ],
-      "trabajo": [
-        "Escultura"
-      ],
-      "contexto": "Personal",
-      "anio": "",
-      "portada": "/img/riace-1.jpg",
-      "galeria": [
-        "/img/riace-2.jpg",
-        "/img/riace-ref.jpg"
-      ],
-      "cuerpo": "Una cabeza modelada a partir de los Bronces de Riace, las dos estatuas griegas del siglo V a.C. que salieron del mar frente a Riace, en Calabria — mi tierra.\n\nDel barro a la pieza terminada: el pelo y la barba rizados, la diadema, la mirada. Escultura sobre un original que conozco de cerca, hecha en cerámica en lugar de bronce. La última imagen es el bronce original, como referencia."
-    },
-    {
-      "titulo": "Alianzas — Taller de joyería, Barcelona",
-      "material": [
-        "Joyería"
-      ],
-      "trabajo": [
-        "Producción",
-        "Acabado"
-      ],
-      "contexto": "Encargo",
-      "anio": "En curso",
-      "portada": "/img/alianzas-1.jpg",
-      "galeria": [
-        "/img/alianzas-4.jpg",
-        "/img/alianzas-3.jpg",
-        "/img/alianzas-2.jpg"
-      ],
-      "cuerpo": "Producción continuada de alianzas de oro para un taller de Barcelona.\n\nEl acabado se hace entero a mano: primero lija de grano 400, después 1200 en dirección cruzada, y para terminar, pasta de pulir. Así la superficie queda a espejo, sin una marca — y en una alianza, lisa y continua, una marca no tiene dónde esconderse."
-    }
-  ]
+ "piezas": [
+  {
+   "titulo": "Zodiaco — Anillos en gres y plata",
+   "material": [
+    "Cerámica",
+    "Joyería"
+   ],
+   "trabajo": [
+    "Modelo",
+    "Molde",
+    "Escultura",
+    "Decoración",
+    "Producción"
+   ],
+   "contexto": "Marca propia",
+   "anio": "2023",
+   "portada": "/img/zodiaco-anillos-detalle.jpg",
+   "galeria": [
+    "/img/zodiaco-anillos.jpg",
+    "/img/zodiaco-sellos.jpg",
+    "/img/zodiaco-horno.jpg",
+    "/img/zodiaco-esmaltados.jpg"
+   ],
+   "cuerpo": "Una colección propia de anillos, uno por cada signo del zodiaco: un bajorrelieve tallado a mano para cada signo, montado sobre un aro de plata.\n\nLa pieza es de gres con un alto porcentaje de chamota. Esa pasta, muy desgrasada, es la que mejor aguanta la cocción en un formato tan pequeño y de paredes irregulares: se mueve poco, no se cuartea y reduce al mínimo los defectos que, a esa escala, arruinarían el relieve. Los moldes, en terracota en lugar de yeso, resisten mejor el desgaste de las series largas.\n\nEl color no es solo decoración: cada signo sigue la paleta de su elemento —fuego, tierra, aire, agua—, de modo que la gama funciona como un sistema coherente de un signo al siguiente. El aro de plata es regulable, para ajustar la talla sin rehacer la pieza.\n\nDiseño, modelado, molde, esmaltado y montaje: todo el recorrido, de una sola mano."
+  },
+  {
+   "titulo": "Las Bagnarote — Bagnara Calabra",
+   "material": [
+    "Cerámica"
+   ],
+   "trabajo": [
+    "Escultura",
+    "Decoración"
+   ],
+   "contexto": "Encargo",
+   "anio": "2022",
+   "portada": "/img/bagnarota-4.jpg",
+   "galeria": [
+    "/img/bagnarota-2.jpg",
+    "/img/bagnarota-5.jpg",
+    "/img/bagnarota-3.jpg",
+    "/img/bagnarota-1.jpg"
+   ],
+   "cuerpo": "Las bagnarote son una figura histórica de Bagnara Calabra, mi pueblo. Después del terremoto de 1783, con muchos hombres muertos, fueron las mujeres las que reconstruyeron el pueblo y sostuvieron su economía: cargaban de todo sobre la cabeza —la uva de la vendimia, los materiales de obra— y comerciaban de pueblo en pueblo, cruzando el Estrecho de Mesina. Como cariátides modernas, se volvieron un símbolo de tenacidad; hay quien las estudió como una auténtica categoría social.\n\nModelé dos bustos, en loza blanca, para dos restaurantes de Bagnara, y los planteé distintos a propósito.\n\nPara Le Saie —el nombre viene de los vestidos de faena de las bagnarote— busqué la memoria del trabajo: un rostro anciano, marcado por la fatiga, con una mirada de hierro que habla de tenacidad e inflexibilidad.\n\nPara Zefiro tomé la misma tradición y la volví joven: una bagnarota bella, de rostro todavía sin marcar, casi una Venus, para que quien la mira reconozca a su alrededor algo fresco. Dos edades de la misma mujer, según lo que cada sala quería contar."
+  },
+  {
+   "titulo": "Máscara de Zefiro — Restaurante Zefiro",
+   "material": [
+    "Cerámica"
+   ],
+   "trabajo": [
+    "Escultura",
+    "Decoración"
+   ],
+   "contexto": "Encargo",
+   "anio": "2021",
+   "portada": "/img/zefiro-0e15a6.jpg",
+   "galeria": [],
+   "cuerpo": "Una máscara para el restaurante Zefiro, en Bagnara Calabra, que toma su nombre del dios griego del viento del oeste.\n\nModelada en loza y pintada a mano con colores cerámicos bajo cubierta transparente. Zefiro es el viento del oeste, el que anuncia la primavera; por eso el rostro lleva flores entrelazadas en el pelo —jacintos, por el mito que se le asocia—. Colgada en la sala, da la bienvenida y fija de entrada el tono del local: el nombre hecho cara."
+  },
+  {
+   "titulo": "OVO Design — Colección MorOVO",
+   "material": [
+    "Cerámica"
+   ],
+   "trabajo": [
+    "Modelo",
+    "Escultura"
+   ],
+   "contexto": "Encargo",
+   "anio": "2021 – en curso",
+   "portada": "/img/ovo-1749.jpg",
+   "galeria": [
+    "/img/ovo-1733.jpg",
+    "/img/ovo-1742.jpg",
+    "/img/ovo-1744.jpg",
+    "/img/ovo-1757.jpg",
+    "/img/ovo-1752.jpg"
+   ],
+   "cuerpo": "Colaboración continuada con OVO Design, desde 2021: el desarrollo de MorOVO, una línea de cabezas de moro.\n\nLa testa di moro es un clásico de la cerámica popular siciliana —esas cabezas que decoran balcones y patios, con su propia carga de leyenda—. Aquí el punto de partida era llevar ese icono a una colección reconocible y reproducible sin convertirlo en souvenir.\n\nTrabajo por injertos sobre la cabeza base, que se obtiene por colado en molde de yeso. Sobre esa forma tallo a mano los elementos que la caracterizan: cada añadido cambia la lectura de la pieza, redibujada en una clave más geométrica. El tipo de producto entra en catálogo y se puede repetir, pero cada ejemplar se talla de nuevo, así que no hay dos idénticos —y esa variación es parte de lo que la marca ofrece—.\n\nLas decisiones de forma se toman pieza a pieza, en el banco: qué aguanta la cocción, qué se puede repetir, hasta dónde llevar el relieve. Cuatro años dando forma a la colección."
+  },
+  {
+   "titulo": "Pulpo — Escultura",
+   "material": [
+    "Cerámica"
+   ],
+   "trabajo": [
+    "Escultura"
+   ],
+   "contexto": "Personal",
+   "anio": "2023–2024",
+   "portada": "/img/pulpo-esc-1.jpg",
+   "galeria": [
+    "/img/pulpo-esc-2.jpg",
+    "/img/pulpo-esc-3.jpg",
+    "/img/pulpo-esc-4.jpg"
+   ],
+   "cuerpo": "El pulpo es una figura a la que vuelvo desde hace años: se adapta a cualquier superficie y cambia de forma sin dejar de ser lo que es. En Faenza, lejos de la costa, se convirtió en mi manera de mantener el vínculo con el mar de Calabria.\n\nEsta es la pieza escultórica: un pulpo modelado a mano y esmaltado en azul, pensado para verse fuera, sobre la roca, junto al agua. Las formas sinuosas de los brazos buscan llenar el espacio con naturalidad, como haría el animal.\n\nLa escultura convive con otra línea de trabajo, más ecléctica, nacida del diálogo con las Teste di Moro de OVO Design."
+  },
+  {
+   "titulo": "Pulpo — Decoración y dibujo",
+   "material": [
+    "Cerámica"
+   ],
+   "trabajo": [
+    "Decoración"
+   ],
+   "contexto": "Personal",
+   "anio": "2023",
+   "portada": "/img/octo-vaso2.jpg",
+   "galeria": [
+    "/img/octo-escultura.jpg",
+    "/img/pulpo-vaso.jpg",
+    "/img/pulpo-pintando.jpg",
+    "/img/pulpo-porcelana.jpg",
+    "/img/pulpo-dibujo.jpg"
+   ],
+   "cuerpo": "La misma figura, llevada a la superficie: dibujo, decoración cerámica y mural.\n\nSobre jarrones torneados pinté el pulpo a mano, con engobes y colores cerámicos, entre corales y motivos marinos. El motivo pasó también al papel, en una serie de dibujos, y a un mural en la escalera del Eco Hostel de Granada —mi primera experiencia fuera, dentro de un intercambio de trabajo—, donde el cuerpo del animal tuvo que adaptarse a la escalera y al muro.\n\nDe esa investigación salió una imagen que me importa: el pulpo en lucha con el cangrejo, que pinté sobre porcelana durante mis prácticas en Elica, cerca de Bolonia. El cangrejo, acorazado, son las defensas y el miedo al cambio; el pulpo, blando y sin coraza, es lo contrario: soltar y adaptarse. Una pelea que en ese momento también era la mía."
+  },
+  {
+   "titulo": "Medusa — Cabeza en cerámica",
+   "material": [
+    "Cerámica"
+   ],
+   "trabajo": [
+    "Escultura",
+    "Decoración"
+   ],
+   "contexto": "Personal",
+   "anio": "",
+   "portada": "/img/medusa-1.jpg",
+   "galeria": [
+    "/img/medusa-2.jpg"
+   ],
+   "cuerpo": "Medusa: la cabeza cortada, con la cabellera de serpientes.\n\nModelada a mano en cerámica y cubierta con un esmalte negro, casi metálico, que endurece los reflejos y convierte las serpientes en una sola masa viva. Un tema clásico llevado a mi manera —no la copia, sino la figura reconocible, trabajada como escultura."
+  },
+  {
+   "titulo": "Bronces de Riace — Cabeza en cerámica",
+   "material": [
+    "Cerámica"
+   ],
+   "trabajo": [
+    "Escultura"
+   ],
+   "contexto": "Personal",
+   "anio": "",
+   "portada": "/img/riace-1.jpg",
+   "galeria": [
+    "/img/riace-2.jpg",
+    "/img/riace-ref.jpg"
+   ],
+   "cuerpo": "Una cabeza modelada a partir de los Bronces de Riace, las dos estatuas griegas del siglo V a.C. que salieron del mar frente a Riace, en Calabria —mi tierra—.\n\nDel barro a la pieza terminada: el pelo y la barba rizados, la diadema, la mirada. Escultura sobre un original que conozco de cerca, hecha en cerámica en lugar de bronce. La última imagen es el bronce original, como referencia."
+  },
+  {
+   "titulo": "Alianzas — Taller de joyería, Barcelona",
+   "material": [
+    "Joyería"
+   ],
+   "trabajo": [
+    "Producción",
+    "Acabado"
+   ],
+   "contexto": "Encargo",
+   "anio": "En curso",
+   "portada": "/img/alianzas-1.jpg",
+   "galeria": [
+    "/img/alianzas-4.jpg",
+    "/img/alianzas-3.jpg",
+    "/img/alianzas-2.jpg"
+   ],
+   "cuerpo": "Producción continuada de alianzas de oro para un taller de Barcelona.\n\nEl acabado se hace entero a mano: primero lija de grano 400, después 1200 en dirección cruzada, y para terminar, pasta de pulir. Así la superficie queda a espejo, sin una marca —y en una alianza, lisa y continua, una marca no tiene dónde esconderse."
+  }
+ ]
 }
