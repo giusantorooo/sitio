@@ -54,8 +54,11 @@
       ],
       "contexto": "Encargo",
       "anio": "2021–2022",
-      "portada": "",
-      "galeria": [],
+      "portada": "/img/bagnarota-3.jpg",
+      "galeria": [
+        "/img/zefiro-0e15a6.jpg",
+        "/img/bagnarota-2.jpg"
+      ],
       "cuerpo": "Un restaurante de pescado en Bagnara Calabra. Un espacio, y mano libre sobre el contenido.\n\n**Zefiro (2021).** Máscara en loza, pintada a mano con colores cerámicos y cubierta transparente. El dios griego del viento del oeste, que da nombre al local: sopla, mejillas hinchadas, pelo movido por el viento. Entre el pelo, flores de jacinto — el mito de Jacinto.\n\n**La Bagnarota (2022).** No es un adorno: es la figura histórica del pueblo, la mujer que cargaba a la cabeza y sostenía la economía del lugar. En Bagnara hay un monumento a ellas. Llevar esa figura dentro de un restaurante de Bagnara es meter el pueblo en su propia sala.\n\nModelado y decoración a mano. Piezas únicas, pensadas para ese espacio."
     },
     {
@@ -77,6 +80,40 @@
         "/img/octo-disegno.jpg"
       ],
       "cuerpo": "El pulpo se adapta a cualquier superficie: cambia de forma sin dejar de ser lo que es. Llevo años volviendo a esa figura.\n\nLa serie atraviesa materiales y escalas: esculturas, jarrones torneados y decorados a mano, y un mural dentro del Eco Hostel de Gran Vía de Colón, en Granada.\n\nNo es una colección de objetos. Es un tema que se puede llevar a cualquier soporte."
+    },
+    {
+      "titulo": "Medusa — Cabeza en cerámica",
+      "material": [
+        "Cerámica"
+      ],
+      "trabajo": [
+        "Escultura",
+        "Decoración"
+      ],
+      "contexto": "Personal",
+      "anio": "",
+      "portada": "/img/medusa-1.jpg",
+      "galeria": [
+        "/img/medusa-2.jpg"
+      ],
+      "cuerpo": "Medusa: la cabeza cortada, con la cabellera de serpientes.\n\nModelada a mano en cerámica y cubierta con un esmalte negro, casi metálico, que endurece los reflejos y convierte las serpientes en una sola masa viva. Un tema clásico llevado a mi manera — no la copia, sino la figura reconocible, trabajada como escultura."
+    },
+    {
+      "titulo": "Bronces de Riace — Cabeza en cerámica",
+      "material": [
+        "Cerámica"
+      ],
+      "trabajo": [
+        "Escultura"
+      ],
+      "contexto": "Personal",
+      "anio": "",
+      "portada": "/img/riace-1.jpg",
+      "galeria": [
+        "/img/riace-2.jpg",
+        "/img/riace-ref.jpg"
+      ],
+      "cuerpo": "Una cabeza modelada a partir de los Bronces de Riace, las dos estatuas griegas del siglo V a.C. que salieron del mar frente a Riace, en Calabria — mi tierra.\n\nDel barro a la pieza terminada: el pelo y la barba rizados, la diadema, la mirada. Escultura sobre un original que conozco de cerca, hecha en cerámica en lugar de bronce. La última imagen es el bronce original, como referencia."
     },
     {
       "titulo": "Alianzas — Taller de joyería, Barcelona",
