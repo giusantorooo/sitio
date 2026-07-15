@@ -99,8 +99,11 @@ async function home() {
 
   document.querySelector("#tira").textContent = t.home_tira;
 
-  const sel = a.piezas.slice(0, 3);
-  pintarPiezas("#seleccion", sel);
+  const both = a.piezas.find((p) => p.material.length > 1);
+  const cer = a.piezas.find((p) => p.material.length === 1 && p.material[0] === "Cerámica");
+  const joy = a.piezas.find((p) => p.material.length === 1 && p.material[0] === "Joyería");
+  const sel = [both, cer, joy].filter(Boolean);
+  pintarPiezas("#seleccion", sel.length ? sel : a.piezas.slice(0, 3));
 }
 
 /* ================================================================
