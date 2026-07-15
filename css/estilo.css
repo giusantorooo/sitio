@@ -108,6 +108,19 @@ main { padding: 34px 18px 60px; max-width: 960px; margin: 0 auto; }
 .copiar:hover { background: rgba(230,228,221,0.12); }
 .narra { margin: 10px 0 26px; font-size: 14.5px; color: var(--oxido); line-height: 1.45; }
 
+/* ---------- CARRUSEL home ---------- */
+.carrusel { position: relative; }
+.carril { display: flex; gap: 18px; overflow-x: auto; scroll-snap-type: x mandatory; scroll-behavior: smooth; scrollbar-width: none; -ms-overflow-style: none; padding-bottom: 2px; }
+.carril::-webkit-scrollbar { display: none; }
+.carril .tarj { flex: 0 0 auto; width: 76%; scroll-snap-align: start; }
+@media (min-width: 560px) { .carril .tarj { width: 45%; } }
+@media (min-width: 900px) { .carril .tarj { width: 30.5%; } }
+.flecha { position: absolute; top: 33%; transform: translateY(-50%); z-index: 5; width: 40px; height: 40px; border-radius: 50%; background: var(--grafito); color: var(--yeso); font-family: 'IBM Plex Mono', monospace; font-size: 16px; display: flex; align-items: center; justify-content: center; opacity: .85; transition: opacity .15s, background .15s; }
+.flecha:hover { background: var(--cobalto); opacity: 1; }
+.flecha.izq { left: -8px; }
+.flecha.der { right: -8px; }
+@media (min-width: 700px) { .flecha.izq { left: -20px; } .flecha.der { right: -20px; } }
+
 /* ---------- REJILLA ---------- */
 .rejilla { display: grid; grid-template-columns: 1fr; gap: 26px 18px; }
 @media (min-width: 560px) { .rejilla { grid-template-columns: 1fr 1fr; } }
