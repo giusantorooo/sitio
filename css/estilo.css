@@ -186,6 +186,6 @@ main { padding: 34px 18px 60px; max-width: 960px; margin: 0 auto; }
 @keyframes sube { from { opacity: 0; transform: translateY(9px); } to { opacity: 1; transform: none; } }
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; transition: none !important; } }
 
-
-/* galeria: imagen horizontal a todo el ancho */
+/* ---------- galería: imágenes horizontales a todo el ancho ---------- */
 .gal img[src*="esmaltados"], .gal img.ancha { grid-column: 1 / -1; }
+.gal img[src*="bagnarota-8"], .gal img[src*="bagnarota-3"] { grid-column: 1 / -1; }
