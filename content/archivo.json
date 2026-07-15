@@ -35,8 +35,12 @@
       ],
       "contexto": "Encargo",
       "anio": "2021–2024",
-      "portada": "",
-      "galeria": [],
+      "portada": "/img/ovo-1749.jpg",
+      "galeria": [
+        "/img/ovo-1733.jpg",
+        "/img/ovo-1757.jpg",
+        "/img/ovo-1752.jpg"
+      ],
       "cuerpo": "OVO Design tenía una línea de cabezas de moro y el problema clásico de la marca pequeña: un objeto, y la necesidad de una colección.\n\nTrabajé por injertos. Partiendo de la cabeza base, tallé a mano los elementos que se añaden encima: cada injerto cambia la lectura de la pieza. Misma base, productos distintos. Las formas están redibujadas en clave geométrica — reconocibles, fuera del folclore.\n\nEl tipo de producto entra en catálogo y se puede reproducir, pero cada pieza se talla de nuevo: dos ejemplares nunca son idénticos. No es una serie industrial, y es mejor así — la variación es parte de lo que la marca vende.\n\nDesarrollo en diálogo continuo con la marca. Las decisiones formales se toman en el banco: qué aguanta la cocción, qué se puede repetir, hasta dónde llega la escultura sin traicionar el catálogo. El proyecto es suyo.\n\nCuatro años de colaboración."
     },
     {
@@ -65,8 +69,13 @@
       ],
       "contexto": "Personal",
       "anio": "2019–2024",
-      "portada": "",
-      "galeria": [],
+      "portada": "/img/octo-escultura.jpg",
+      "galeria": [
+        "/img/octo-mural.jpg",
+        "/img/octo-vaso2.jpg",
+        "/img/octo-vaso1.jpg",
+        "/img/octo-disegno.jpg"
+      ],
       "cuerpo": "El pulpo se adapta a cualquier superficie: cambia de forma sin dejar de ser lo que es. Llevo años volviendo a esa figura.\n\nLa serie atraviesa materiales y escalas: esculturas, jarrones torneados y decorados a mano, y un mural dentro del Eco Hostel de Gran Vía de Colón, en Granada.\n\nNo es una colección de objetos. Es un tema que se puede llevar a cualquier soporte."
     },
     {
