@@ -99,11 +99,34 @@ async function home() {
 
   document.querySelector("#tira").textContent = t.home_tira;
 
-  const both = a.piezas.find((p) => p.material.length > 1);
-  const cer = a.piezas.find((p) => p.material.length === 1 && p.material[0] === "Cerámica");
-  const joy = a.piezas.find((p) => p.material.length === 1 && p.material[0] === "Joyería");
-  const sel = [both, cer, joy].filter(Boolean);
-  pintarPiezas("#seleccion", sel.length ? sel : a.piezas.slice(0, 3));
+  pintarPiezas("#seleccion", a.piezas);
+  carrusel();
+}
+
+/* ---------- carrusel de la home ---------- */
+function carrusel() {
+  const carril = document.querySelector("#seleccion");
+  if (!carril) return;
+  const paso = () => {
+    const card = carril.querySelector(".tarj");
+    return card ? card.getBoundingClientRect().width + 18 : carril.clientWidth;
+  };
+  const avanzar = (dir) => {
+    const max = carril.scrollWidth - carril.clientWidth - 4;
+    if (dir > 0 && carril.scrollLeft >= max) carril.scrollTo({ left: 0 });
+    else if (dir < 0 && carril.scrollLeft <= 4) carril.scrollTo({ left: max });
+    else carril.scrollBy({ left: dir * paso() });
+  };
+  const izq = document.querySelector("#car-izq");
+  const der = document.querySelector("#car-der");
+  if (izq) izq.addEventListener("click", () => avanzar(-1));
+  if (der) der.addEventListener("click", () => avanzar(1));
+  let timer = setInterval(() => avanzar(1), 3200);
+  const carr = carril.closest(".carrusel");
+  if (carr) {
+    carr.addEventListener("mouseenter", () => clearInterval(timer));
+    carr.addEventListener("mouseleave", () => { clearInterval(timer); timer = setInterval(() => avanzar(1), 3200); });
+  }
 }
 
 /* ================================================================
