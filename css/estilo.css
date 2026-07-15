@@ -28,7 +28,7 @@ button:focus-visible, a:focus-visible { outline: 2px solid var(--cobalto); outli
   padding: 15px 16px; border-bottom: 1.5px solid var(--grafito);
   position: sticky; top: 0; background: var(--yeso); z-index: 30;
 }
-.marca { font-size: 12.5px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; flex: none; transition: color .15s; }
+.marca { font-size: 16px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; flex: none; transition: color .15s; }
 .marca:hover { color: var(--cobalto); }
 .links { display: flex; gap: 11px; }
 .links a {
@@ -40,7 +40,7 @@ button:focus-visible, a:focus-visible { outline: 2px solid var(--cobalto); outli
 .links a.on { color: var(--grafito); border-bottom-color: var(--cobalto); }
 @media (min-width: 420px) {
   .nav { padding: 16px 18px; }
-  .marca { font-size: 14px; letter-spacing: 0.2em; }
+  .marca { font-size: 20px; letter-spacing: 0.18em; }
   .links { gap: 20px; }
   .links a { font-size: 11px; letter-spacing: 0.12em; }
 }
@@ -155,6 +155,20 @@ main { padding: 34px 18px 60px; max-width: 960px; margin: 0 auto; }
 .contacto dd a:hover { color: var(--cobalto); }
 
 .pie { display: flex; flex-wrap: wrap; gap: 8px 20px; justify-content: space-between; padding: 16px 18px; border-top: 1px solid var(--linea); font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--oxido); max-width: 960px; margin: 0 auto; }
+
+/* ---------- HOME · dos vías ---------- */
+.lead { margin: 20px 0 0; font-size: 18px; line-height: 1.5; max-width: 42ch; }
+.rutas { display: grid; grid-template-columns: 1fr; gap: 12px; margin-top: 30px; max-width: 480px; }
+@media (min-width: 560px) { .rutas { grid-template-columns: 1fr 1fr; } }
+.ruta { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 20px 22px; background: var(--grafito); color: var(--yeso); border-radius: 2px; transition: background .15s; animation: sube .5s ease both; }
+.ruta:hover { background: var(--cobalto); }
+.ruta span { font-size: 22px; font-weight: 700; letter-spacing: -0.02em; }
+.ruta i { font-style: normal; font-family: 'IBM Plex Mono', monospace; font-size: 18px; }
+
+/* ---------- SOBRE MÍ ---------- */
+.sobre { max-width: 60ch; margin-top: 8px; }
+.sobre p { font-size: 16.5px; line-height: 1.6; margin: 0 0 16px; }
+.sobre p:first-child { font-size: 19px; line-height: 1.45; }
 
 @keyframes sube { from { opacity: 0; transform: translateY(9px); } to { opacity: 1; transform: none; } }
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; transition: none !important; } }
