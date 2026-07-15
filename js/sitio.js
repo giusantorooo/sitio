@@ -130,7 +130,8 @@ const joyeria = () => seccion("Joyería", "joyeria_intro", "joyeria_servicios");
    ================================================================ */
 async function sobre() {
   const t = await cargar("textos");
-  document.querySelector("#cuerpo").innerHTML = md(t.sobre_cuerpo);
+  const parr = t.sobre_parrafos || String(t.sobre_cuerpo || "").split(/\n\s*\n/);
+  document.querySelector("#cuerpo").innerHTML = parr.map((p) => "<p>" + esc(p) + "</p>").join("");
 }
 
 /* ================================================================
@@ -164,7 +165,6 @@ document.addEventListener("DOMContentLoaded", () => {
   if (fn) fn().catch((e) => {
     console.error(e);
     const m = document.querySelector("main");
-    if (m) m.insertAdjacentHTML("afterbegin",
-      '<p style="color:#1B3A8C">No se ha podido cargar el contenido. Recarga la página.</p>');
+    if (m) m.insertAdjacentHTML("afterbegin", '<p style="color:#1B3A8C">No se ha podido cargar el contenido. Recarga la página.</p>');
   });
 });
