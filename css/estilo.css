@@ -193,3 +193,4 @@ main { padding: 34px 18px 60px; max-width: 960px; margin: 0 auto; }
 .gal img[src*="ovo-10"], .gal img[src*="ovo-11"] { grid-column: 1 / -1; }
 .gal img[src*="pulpo-esc-02"], .gal img[src*="pulpo-esc-03"], .gal img[src*="pulpo-esc-04"] { grid-column: 1 / -1; }
 .gal img[src*="riace-04"] { grid-column: 1 / -1; }
+.gal img[src*="medusa-02"] { grid-column: 1 / -1; }
