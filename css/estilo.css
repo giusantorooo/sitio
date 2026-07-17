@@ -206,13 +206,14 @@ body[data-pagina="home"] .h1 { font-size: 38px; }
 body[data-pagina="home"] .lead { margin-top: 12px; font-size: 16px; max-width: 60ch; }
 @media (min-width: 700px) { body[data-pagina="home"] .h1 { font-size: 52px; } }
 
-.dos-vias { display: grid; grid-template-columns: 1fr; gap: 38px; }
+.dos-vias { display: grid; grid-template-columns: minmax(0, 1fr); gap: 38px; }
+.dos-vias .via { min-width: 0; }
 .dos-vias .eyebrow { margin-bottom: 8px; }
 .dos-vias .sec-cta { max-width: none; margin-top: 14px; }
 .dos-vias .tmeta, .dos-vias .ttag { display: none; }
 .dos-vias .tarj h3 { font-size: 14px; margin-top: 8px; }
 @media (min-width: 760px) {
-  .dos-vias { grid-template-columns: 1fr 1fr; gap: 30px; align-items: start; }
+  .dos-vias { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 30px; align-items: start; }
   .dos-vias .carril .tarj { width: 44%; }
   .dos-vias .flecha { width: 30px; height: 30px; font-size: 13px; }
   .dos-vias .flecha.izq { left: -6px; }
