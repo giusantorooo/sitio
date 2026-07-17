@@ -83,7 +83,7 @@ function pintarPiezas(sel, lista) {
 }
 
 /* ================================================================
-   HOME
+   HOME — dos recorridos: cerámica y joyería
    ================================================================ */
 async function home() {
   const [t, a] = await Promise.all([cargar("textos"), cargar("archivo")]);
@@ -91,21 +91,23 @@ async function home() {
   document.querySelector("#hero").innerHTML = `
     <h1 class="h1">${esc(t.home_titulo_1)} <em>y</em><br>${esc(t.home_titulo_2)}</h1>
     <p class="sub">${esc(t.home_ciudad)}</p>
-    <p class="lead">${esc(t.home_intro)}</p>
-    <div class="rutas">
-      <a class="ruta" href="/ceramica"><span>Cerámica</span><i>→</i></a>
-      <a class="ruta" href="/joyeria"><span>Joyería</span><i>→</i></a>
-    </div>`;
+    <p class="lead">${esc(t.home_intro)}</p>`;
 
   document.querySelector("#tira").textContent = t.home_tira;
 
-  pintarPiezas("#seleccion", a.piezas);
-  carrusel();
+  const ceramica = a.piezas.filter((p) => p.material.includes("Cerámica"));
+  const joyeria = a.piezas.filter((p) => p.material.includes("Joyería"));
+
+  pintarPiezas("#sel-ceramica", ceramica);
+  pintarPiezas("#sel-joyeria", joyeria);
+
+  carrusel("#sel-ceramica", "#cer-izq", "#cer-der");
+  carrusel("#sel-joyeria", "#joy-izq", "#joy-der");
 }
 
-/* ---------- carrusel de la home ---------- */
-function carrusel() {
-  const carril = document.querySelector("#seleccion");
+/* ---------- carrusel reutilizable ---------- */
+function carrusel(carrilSel, izqSel, derSel) {
+  const carril = document.querySelector(carrilSel);
   if (!carril) return;
   const paso = () => {
     const card = carril.querySelector(".tarj");
@@ -113,12 +115,13 @@ function carrusel() {
   };
   const avanzar = (dir) => {
     const max = carril.scrollWidth - carril.clientWidth - 4;
+    if (max <= 0) return;
     if (dir > 0 && carril.scrollLeft >= max) carril.scrollTo({ left: 0 });
     else if (dir < 0 && carril.scrollLeft <= 4) carril.scrollTo({ left: max });
     else carril.scrollBy({ left: dir * paso() });
   };
-  const izq = document.querySelector("#car-izq");
-  const der = document.querySelector("#car-der");
+  const izq = document.querySelector(izqSel);
+  const der = document.querySelector(derSel);
   if (izq) izq.addEventListener("click", () => avanzar(-1));
   if (der) der.addEventListener("click", () => avanzar(1));
   let timer = setInterval(() => avanzar(1), 3200);
