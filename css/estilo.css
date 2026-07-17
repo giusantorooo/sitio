@@ -219,3 +219,4 @@ body[data-pagina="home"] .lead { margin-top: 12px; font-size: 16px; max-width: 6
   .dos-vias .flecha.izq { left: -6px; }
   .dos-vias .flecha.der { right: -6px; }
 }
+.gal img[src*="alianzas-02"] { grid-column: 1 / -1; }
