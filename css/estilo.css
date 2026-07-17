@@ -195,3 +195,7 @@ main { padding: 34px 18px 60px; max-width: 960px; margin: 0 auto; }
 .gal img[src*="riace-04"] { grid-column: 1 / -1; }
 .gal img[src*="medusa-02"] { grid-column: 1 / -1; }
 .gal img[src*="pulpo-dec"] { grid-column: 1 / -1; }
+
+/* ---------- HOME · botón de sección bajo el carrusel ---------- */
+.sec-cta { max-width: 480px; margin-top: 22px; }
+.bloque.sep { border-top: 1px solid var(--linea); margin-top: 30px; }
