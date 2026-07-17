@@ -83,7 +83,7 @@ function pintarPiezas(sel, lista) {
 }
 
 /* ================================================================
-   HOME — dos recorridos: cerámica y joyería
+   HOME — dos recorridos: cerámica y joyería, en una pantalla
    ================================================================ */
 async function home() {
   const [t, a] = await Promise.all([cargar("textos"), cargar("archivo")]);
@@ -93,7 +93,8 @@ async function home() {
     <p class="sub">${esc(t.home_ciudad)}</p>
     <p class="lead">${esc(t.home_intro)}</p>`;
 
-  document.querySelector("#tira").textContent = t.home_tira;
+  const tira = document.querySelector("#tira");
+  if (tira) tira.textContent = t.home_tira;
 
   const ceramica = a.piezas.filter((p) => p.material.includes("Cerámica"));
   const joyeria = a.piezas.filter((p) => p.material.includes("Joyería"));
