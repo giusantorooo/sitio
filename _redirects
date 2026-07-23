@@ -1,0 +1,9 @@
+/contatti /contacto 301
+/chi-sono /sobre 301
+/portfolio /ceramica 301
+/portfolio-collections/* /ceramica 301
+/galleria /ceramica 301
+/mostre /archivo 301
+/collaborazioni /servicios 301
+/es / 301
+/en / 301
