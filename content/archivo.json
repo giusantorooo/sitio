@@ -74,8 +74,8 @@
     "Joyería"
    ],
    "trabajo": [
+    "Modelado 3D",
     "A mano",
-    "Cera",
     "Fundición",
     "Acabado",
     "Engaste"
@@ -91,7 +91,7 @@
     "/img/cabujon-05-acabado.jpg",
     "/img/cabujon-06-puestos.jpg"
    ],
-   "cuerpo": "Anillos con cabujón de Akratos, mi marca de joyería: del modelo a la pieza terminada.\n\nLa forma, estudiada a mano alrededor del chatón. El modelo, en cera. La fundición, con mis proveedores. Después, corte de bebederos, pulido y engaste en chatón.",
+   "cuerpo": "Anillos con cabujón de Akratos, mi marca de joyería, del modelo a la pieza terminada.\n\nPrimero estudié la forma a mano, alrededor del chatón. Después hice el modelo en 3D con Rhinoceros y la fundición con mis proveedores. Por último, corte de bebederos, pulido y engaste en chatón.",
    "cliente": ""
   },
   {
