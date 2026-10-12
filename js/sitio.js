@@ -14,9 +14,9 @@ const md = (t) =>
     .map((p) => "<p>" + esc(p).replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>").replace(/\n/g, "<br>") + "</p>")
     .join("");
 
-/* etiqueta: "Proyecto propio" o "Para [cliente]" */
+/* etiqueta: "Proyecto propio" o "Cliente: [nombre]" */
 const etiqueta = (p) =>
-  p.cliente ? `Para ${p.cliente}` : (p.contexto === "Encargo" ? "Encargo" : "Proyecto propio");
+  p.cliente ? `Cliente: ${p.cliente}` : (p.contexto === "Encargo" ? "Encargo" : "Proyecto propio");
 
 /* sección donde aparece un proyecto: "secciones" si existe, si no el material */
 const en = (p, sec) => (p.secciones || p.material).includes(sec);
@@ -64,7 +64,7 @@ function abrirFicha(p) {
       <dl class="spec">
         <div><dt>Material</dt><dd>${esc(p.material.join(" + "))}</dd></div>
         <div><dt>Trabajo</dt><dd>${esc(p.trabajo.join(", "))}</dd></div>
-        <div><dt>Para</dt><dd>${esc(etiqueta(p))}</dd></div>
+        <div><dt>${p.cliente ? "Cliente" : "Proyecto"}</dt><dd>${p.cliente ? esc(p.cliente) : "Propio"}</dd></div>
         <div><dt>Año</dt><dd>${esc(p.anio)}</dd></div>
       </dl>
       <div class="cuerpo">${md(p.cuerpo)}</div>
