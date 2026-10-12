@@ -155,7 +155,11 @@ async function seccion(material, introKey, serviciosKey, notaKey) {
     </article>`).join("");
 
   const nota = document.querySelector("#nota");
-  if (nota) { nota.textContent = t[notaKey] || ""; nota.hidden = !t[notaKey]; }
+  if (nota) {
+    const n = [].concat(t[notaKey] || []).filter(Boolean);
+    nota.innerHTML = n.map((x) => `<p>${esc(x)}</p>`).join("");
+    nota.hidden = !n.length;
+  }
 
   const piezas = a.piezas.filter((p) => p.material.includes(material));
   pintarPiezas("#piezas", piezas);

@@ -3,7 +3,9 @@
 /portfolio /ceramica 301
 /portfolio-collections/* /ceramica 301
 /galleria /ceramica 301
-/mostre /archivo 301
-/collaborazioni /servicios 301
+/mostre /ceramica 301
+/collaborazioni /ceramica 301
 /es / 301
 /en / 301
+/servicios / 301
+/archivo / 301

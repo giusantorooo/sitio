@@ -3,7 +3,7 @@
   "home_sub": "Joyería y cerámica · Barcelona",
   "home_joyeria": "Modelos 3D y en cera, fundición y acabado, para marcas y talleres.",
   "home_ceramica": "Escultura, modelado y decoración, para manufacturas.",
-  "ceramica_intro": "Para manufacturas y diseñadores que necesitan piezas fuera de lo habitual.",
+  "ceramica_intro": "Para manufacturas, y para los diseñadores que trabajan con ellas: las piezas que la línea de producción no resuelve.",
   "ceramica_servicios": [
     {
       "nombre": "Escultura y modelado",
@@ -13,12 +13,12 @@
     {
       "nombre": "Decoración",
       "linea": "",
-      "texto": "Técnicas manuales para piezas especiales."
+      "texto": "Pintura a mano con colores cerámicos, y esmaltado por inmersión o a pistola."
     },
     {
       "nombre": "Resolución técnica",
       "linea": "",
-      "texto": "Hacer posible lo que pide el diseñador."
+      "texto": "Pastas, esmaltes y cocción: cuando una pieza se cuartea, un esmalte no ajusta o un color vira en el horno."
     }
   ],
   "joyeria_intro": "Del boceto a la pieza terminada, con un solo interlocutor. Para marcas y talleres.",
@@ -26,17 +26,17 @@
     {
       "nombre": "Desarrollo",
       "linea": "",
-      "texto": "De tu idea o boceto a un modelo listo para producir, en 3D, en cera o a mano."
+      "texto": "De tu idea o boceto a un modelo listo para producir: en 3D, en cera o a mano."
     },
     {
       "nombre": "Producción",
       "linea": "",
-      "texto": "Fundición con proveedores de confianza y pequeñas series."
+      "texto": "Fundición con mis proveedores y pequeñas series."
     },
     {
       "nombre": "Acabado",
       "linea": "",
-      "texto": "Limpieza de fundición, pulido, satinado, engaste sencillo y en chatón para cabujones."
+      "texto": "Limpieza de fundición, pulido, satinado, engaste de pocas piedras y en chatón para cabujones."
     }
   ],
   "sobre_parrafos": [
@@ -46,7 +46,10 @@
     "Cómo trabajo. En joyería llevo los encargos desde mi banco, en un espacio de coworking de Barcelona. En cerámica no tengo taller propio: trabajo dentro de las manufacturas."
   ],
   "contacto_intro": "Cuéntame tu proyecto: un boceto o una foto, cantidad y plazo.",
-  "joyeria_nota": "Engaste complejo y grabado: los coordino con talleres especializados.",
+  "joyeria_nota": [
+    "El proyecto es tuyo: no publico ni reutilizo tu diseño sin tu permiso.",
+    "Engaste de muchas piedras y grabado: los coordino yo, con otros talleres."
+  ],
   "ceramica_nota": "",
   "pie_cta": "¿Tienes un proyecto?",
   "email": "giusantorooo@gmail.com",
