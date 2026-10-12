@@ -34,19 +34,9 @@ Se qualcosa non torna, **fermati e scrivimi** invece di improvvisare.
 
 Dopo un minuto ti dà un indirizzo tipo `sitio-xyz.pages.dev`. **Quello è il tuo sito, online.**
 
-## 4 · Il pannello
+## 4 · Modificare i testi
 
-1. Vai su `TUO-INDIRIZZO.pages.dev/admin/`
-2. Clicca **Sign In with Token**.
-3. Ti dà un link per generare il token su GitHub. Aprilo — le autorizzazioni sono già selezionate.
-   - Dai al token accesso **solo al repository `sitio`**.
-   - Permesso: **Contents → Read and write**.
-   - Scadenza: un anno.
-4. Copia il token, incollalo, entra.
-
-Sei dentro. Da qui carichi foto e scrivi le schede, e il sito si aggiorna da solo.
-
-⚠️ **Il token è come una password: non incollarlo mai in chat, né a me né a nessuno.**
+Il pannello /admin è stato tolto il 12/10/2026. I testi si cambiano in `content/textos.json` e i progetti in `content/archivo.json` (tramite Claude, o a mano dall'editor di GitHub).
 
 ---
 
