@@ -69,23 +69,24 @@
    "cliente": "Restaurante Zefiro"
   },
   {
-   "titulo": "Alianzas — Taller de joyería, Barcelona",
+   "titulo": "Alianzas personalizadas",
    "material": [
     "Joyería"
    ],
    "trabajo": [
-    "Producción",
+    "A mano",
+    "A medida",
     "Acabado"
    ],
    "contexto": "Encargo",
-   "anio": "En curso",
+   "anio": "2026",
    "portada": "/img/alianzas-01.jpg",
    "galeria": [
     "/img/alianzas-02.jpg",
     "/img/alianzas-03.jpg",
     "/img/alianzas-04.jpg"
    ],
-   "cuerpo": "Producción continuada de alianzas de oro en Barcelona, en colaboración con un taller con el que trabajo desde 2026.\n\nEl acabado se hace entero a mano: primero lija de grano 400, después 1200 en dirección cruzada, y para terminar, pasta de pulir. Así la superficie queda a espejo, sin una marca —y en una alianza, lisa y continua, una marca no tiene dónde esconderse.",
+   "cuerpo": "Alianzas personalizadas de oro para un taller de joyería de Barcelona, hechas una a una, a medida, según el diseño de cada encargo.\n\nFormo cada alianza a mano: paso el metal por la hilera, elijo la sección y doy forma a la pieza según el diseño.\n\nEl acabado también es a mano: lija de grano 400 a 1200, hasta el pulido a espejo.",
    "cliente": "Taller de joyería, Barcelona"
   },
   {
