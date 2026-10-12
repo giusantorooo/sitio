@@ -14,6 +14,10 @@ const md = (t) =>
     .map((p) => "<p>" + esc(p).replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>").replace(/\n/g, "<br>") + "</p>")
     .join("");
 
+/* etiqueta: "Proyecto propio" o "Para [cliente]" */
+const etiqueta = (p) =>
+  p.cliente ? `Para ${p.cliente}` : (p.contexto === "Encargo" ? "Encargo" : "Proyecto propio");
+
 const clase = (m) => (m.length > 1 ? "m" : m[0] === "Joyería" ? "j" : "");
 
 async function cargar(archivo) {
@@ -34,7 +38,8 @@ function tarjeta(p, i) {
         <span class="a">${esc(p.anio)}</span>
       </div>
       <h3>${esc(p.titulo)}</h3>
-      <div class="ttag">${esc(p.trabajo.join(" · "))} — ${esc(p.contexto)}</div>
+      <div class="etq">${esc(etiqueta(p))}</div>
+      <div class="ttag">${esc(p.trabajo.join(" · "))}</div>
     </button>`;
 }
 
@@ -56,7 +61,7 @@ function abrirFicha(p) {
       <dl class="spec">
         <div><dt>Material</dt><dd>${esc(p.material.join(" + "))}</dd></div>
         <div><dt>Trabajo</dt><dd>${esc(p.trabajo.join(", "))}</dd></div>
-        <div><dt>Contexto</dt><dd>${esc(p.contexto)}</dd></div>
+        <div><dt>Para</dt><dd>${esc(etiqueta(p))}</dd></div>
         <div><dt>Año</dt><dd>${esc(p.anio)}</dd></div>
       </dl>
       <div class="cuerpo">${md(p.cuerpo)}</div>
@@ -89,12 +94,13 @@ async function home() {
   const [t, a] = await Promise.all([cargar("textos"), cargar("archivo")]);
 
   document.querySelector("#hero").innerHTML = `
-    <h1 class="h1">${esc(t.home_titulo_1)} <em>y</em><br>${esc(t.home_titulo_2)}</h1>
-    <p class="sub">${esc(t.home_ciudad)}</p>
-    <p class="lead">${esc(t.home_intro)}</p>`;
+    <h1 class="h1">${esc(t.home_titulo)}</h1>
+    <p class="sub">${esc(t.home_sub)}</p>`;
 
-  const tira = document.querySelector("#tira");
-  if (tira) tira.textContent = t.home_tira;
+  const tj = document.querySelector("#txt-joyeria");
+  if (tj) tj.textContent = t.home_joyeria;
+  const tc = document.querySelector("#txt-ceramica");
+  if (tc) tc.textContent = t.home_ceramica;
 
   const ceramica = a.piezas.filter((p) => p.material.includes("Cerámica"));
   const joyeria = a.piezas.filter((p) => p.material.includes("Joyería"));
@@ -136,7 +142,7 @@ function carrusel(carrilSel, izqSel, derSel) {
 /* ================================================================
    SECCIÓN (Cerámica / Joyería) = intro + servicios + archivo filtrado
    ================================================================ */
-async function seccion(material, introKey, serviciosKey) {
+async function seccion(material, introKey, serviciosKey, notaKey) {
   const [t, a] = await Promise.all([cargar("textos"), cargar("archivo")]);
 
   document.querySelector("#intro").textContent = t[introKey];
@@ -144,16 +150,19 @@ async function seccion(material, introKey, serviciosKey) {
   document.querySelector("#servicios").innerHTML = (t[serviciosKey] || []).map((s) => `
     <article class="serv">
       <h3>${esc(s.nombre)}</h3>
-      <p class="linea">${esc(s.linea)}</p>
+      ${s.linea ? `<p class="linea">${esc(s.linea)}</p>` : ""}
       <p class="txt">${esc(s.texto)}</p>
     </article>`).join("");
+
+  const nota = document.querySelector("#nota");
+  if (nota) { nota.textContent = t[notaKey] || ""; nota.hidden = !t[notaKey]; }
 
   const piezas = a.piezas.filter((p) => p.material.includes(material));
   pintarPiezas("#piezas", piezas);
 }
 
-const ceramica = () => seccion("Cerámica", "ceramica_intro", "ceramica_servicios");
-const joyeria = () => seccion("Joyería", "joyeria_intro", "joyeria_servicios");
+const ceramica = () => seccion("Cerámica", "ceramica_intro", "ceramica_servicios", "ceramica_nota");
+const joyeria = () => seccion("Joyería", "joyeria_intro", "joyeria_servicios", "joyeria_nota");
 
 /* ================================================================
    SOBRE MÍ
@@ -172,6 +181,7 @@ async function contacto() {
   document.querySelector("#intro").textContent = t.contacto_intro;
   document.querySelector("#datos").innerHTML = `
     <div><dt>Correo</dt><dd><a href="mailto:${esc(t.email)}">${esc(t.email)}</a></dd></div>
+    ${t.whatsapp ? `<div><dt>WhatsApp</dt><dd><a href="https://wa.me/${esc(t.whatsapp.replace(/\D/g, ""))}" target="_blank" rel="noopener">${esc(t.whatsapp)}</a></dd></div>` : ""}
     <div><dt>Instagram</dt><dd><a href="https://instagram.com/${esc(t.instagram)}" target="_blank" rel="noopener">@${esc(t.instagram)}</a></dd></div>`;
 }
 
@@ -181,6 +191,15 @@ async function pie() {
     const t = await cargar("textos");
     const el = document.querySelector("#pie-datos");
     if (el) el.textContent = `${t.email} · @${t.instagram}`;
+    const footer = document.querySelector("footer.pie");
+    if (footer && document.body.dataset.pagina !== "contacto") {
+      footer.insertAdjacentHTML("beforebegin", `
+        <section class="pie-cta">
+          <p>${esc(t.pie_cta)}</p>
+          <a class="ruta" href="/contacto"><span>Cuéntamelo</span><i>→</i></a>
+          <a class="pie-mail" href="mailto:${esc(t.email)}">${esc(t.email)}</a>
+        </section>`);
+    }
   } catch (_) {}
 }
 
