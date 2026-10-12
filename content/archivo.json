@@ -69,6 +69,32 @@
    "cliente": "Restaurante Zefiro"
   },
   {
+   "titulo": "Akratos — Anillos con cabujón",
+   "material": [
+    "Joyería"
+   ],
+   "trabajo": [
+    "A mano",
+    "Cera",
+    "Fundición",
+    "Acabado",
+    "Engaste"
+   ],
+   "contexto": "Marca propia",
+   "anio": "2026",
+   "portada": "/img/cabujon-portada.jpg",
+   "galeria": [
+    "/img/cabujon-01-mano.jpg",
+    "/img/cabujon-02-cera.jpg",
+    "/img/cabujon-03-cera.jpg",
+    "/img/cabujon-04-fundicion.jpg",
+    "/img/cabujon-05-acabado.jpg",
+    "/img/cabujon-06-puestos.jpg"
+   ],
+   "cuerpo": "Anillos con cabujón de Akratos, mi marca de joyería: del modelo a la pieza terminada.\n\nLa forma, estudiada a mano alrededor del chatón. El modelo, en cera. La fundición, con mis proveedores. Después, corte de bebederos, pulido y engaste en chatón.",
+   "cliente": ""
+  },
+  {
    "titulo": "Alianzas personalizadas",
    "material": [
     "Joyería"
