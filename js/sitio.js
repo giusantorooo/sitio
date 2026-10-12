@@ -18,6 +18,9 @@ const md = (t) =>
 const etiqueta = (p) =>
   p.cliente ? `Para ${p.cliente}` : (p.contexto === "Encargo" ? "Encargo" : "Proyecto propio");
 
+/* sección donde aparece un proyecto: "secciones" si existe, si no el material */
+const en = (p, sec) => (p.secciones || p.material).includes(sec);
+
 const clase = (m) => (m.length > 1 ? "m" : m[0] === "Joyería" ? "j" : "");
 
 async function cargar(archivo) {
@@ -102,8 +105,8 @@ async function home() {
   const tc = document.querySelector("#txt-ceramica");
   if (tc) tc.textContent = t.home_ceramica;
 
-  const ceramica = a.piezas.filter((p) => p.material.includes("Cerámica"));
-  const joyeria = a.piezas.filter((p) => p.material.includes("Joyería"));
+  const ceramica = a.piezas.filter((p) => en(p, "Cerámica"));
+  const joyeria = a.piezas.filter((p) => en(p, "Joyería"));
 
   pintarPiezas("#sel-ceramica", ceramica);
   pintarPiezas("#sel-joyeria", joyeria);
@@ -161,7 +164,7 @@ async function seccion(material, introKey, serviciosKey, notaKey) {
     nota.hidden = !n.length;
   }
 
-  const piezas = a.piezas.filter((p) => p.material.includes(material));
+  const piezas = a.piezas.filter((p) => en(p, material));
   pintarPiezas("#piezas", piezas);
 }
 
