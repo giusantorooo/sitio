@@ -237,4 +237,3 @@ body[data-pagina="home"] .hero { padding-bottom: 34px; }
 .pie-cta .ruta { max-width: 320px; }
 .pie-mail { font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: var(--oxido); text-decoration: underline; text-underline-offset: 4px; }
 .nota p { margin: 0 0 6px; }
-.nota p:first-child { color: var(--grafito); }
