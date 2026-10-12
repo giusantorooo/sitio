@@ -36,7 +36,7 @@
     {
       "nombre": "Acabado",
       "linea": "",
-      "texto": "Corte de bebederos, limado, pulido y satinado. Engaste de pocas piedras."
+      "texto": "Corte de bebederos, limado, pulido y satinado. Engaste de pocas piedras; el engaste de muchas piedras y el grabado los coordino con otros talleres."
     }
   ],
   "sobre_parrafos": [
@@ -45,9 +45,7 @@
     "Joyería. Formación en la Accademia Orafa Italiana, en Catania, en 2022: técnicas orfebres y CAD-CAM. Modelado 3D para joyería con Rhinoceros, con PJ Chen Design."
   ],
   "contacto_intro": "Cuéntame tu proyecto: un boceto o una foto, cantidad y plazo.",
-  "joyeria_nota": [
-    "Engaste de muchas piedras y grabado: los coordino yo, con otros talleres."
-  ],
+  "joyeria_nota": [],
   "ceramica_nota": "",
   "pie_cta": "¿Tienes un proyecto?",
   "email": "giusantorooo@gmail.com",
